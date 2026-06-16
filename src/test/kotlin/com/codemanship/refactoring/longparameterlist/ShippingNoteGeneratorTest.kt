@@ -110,7 +110,7 @@ class ShippingNoteGeneratorTest {
     fun shouldIncludeQuantityCorrectly() {
 
         val result = shippingNoteGenerator.generateShippingNote(
-            "Tom",
+            "",
             "White",
 
             "10 Market Street",
